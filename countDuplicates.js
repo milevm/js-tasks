@@ -36,7 +36,7 @@ let fillArray = (arrLength) => {
 fillArray(arrLength);
 
 //find duplicates values
-let findDuplicates = (arr) => {
+let countDuplicates = (arr) => {
     let duplicateValues = [];
     for (let i = 0; i < arr.length; i++) {
         if (arr.includes(arr[i], i + 1) === true && duplicateValues.includes(arr[i]) === false) {
@@ -46,7 +46,7 @@ let findDuplicates = (arr) => {
     return counter = duplicateValues.length;
 };
 
-findDuplicates(arr);
+countDuplicates(arr);
 
 //print results
 console.log(counter);
