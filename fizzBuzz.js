@@ -13,7 +13,7 @@ while (true) {
 }
 
 //check for multiply and print output
-function fizzBuzz (num) {
+let fizzBuzz = (num) => {
     for (let i = 1; i <= num; i++) {
         if (i % 3 !== 0 && i % 5 !== 0){
             console.log(i);
