@@ -16,12 +16,11 @@ while (true) {
 //get last two characters and return it
 let lastChars = null;
 function lastLetters(input) {
-    return lastChars = input.slice(-2);
-    console.log(`${lastChars[1]} ${lastChars[0]}`);
+    return lastChars = input.slice(-2);    
 };
 
 lastLetters(validInput);
-
+console.log(`${lastChars[1]} ${lastChars[0]}`);
 
 
 
